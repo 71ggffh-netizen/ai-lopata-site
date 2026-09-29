@@ -1,0 +1,1 @@
+import"./motion.DI3uydwC.js";var e=document.querySelector(`[data-progress]`);if(e){let t=()=>{let t=document.documentElement.scrollHeight-innerHeight;e.style.setProperty(`--p`,String(t>0?Math.min(1,scrollY/t):0))};t(),addEventListener(`scroll`,t,{passive:!0}),addEventListener(`resize`,t)}
